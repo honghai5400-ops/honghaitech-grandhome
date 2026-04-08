@@ -41,8 +41,8 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="space-y-6">
               <div className="flex items-center gap-4 group cursor-pointer">
-                <div className="w-12 h-12 bg-primary rounded-[1.25rem] flex items-center justify-center text-white font-black text-2xl shadow-[0_10px_30px_-5px_rgba(30,74,233,0.4)]">
-                  H
+                <div className="w-12 h-12 bg-white rounded-[1.25rem] flex items-center justify-center p-2 shadow-[0_10px_30px_-5px_rgba(30,74,233,0.2)] group-hover:scale-110 transition-all duration-500 border border-white/10">
+                  <img src="/favicon.svg" alt="HongHaiTech GrandHome Logo" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-2xl font-black tracking-tighter uppercase">Grand<span className="text-primary italic font-serif lowercase border-b-2 border-primary/20">Home</span></span>
               </div>
