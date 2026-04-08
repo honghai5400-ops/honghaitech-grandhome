@@ -23,8 +23,8 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${scrolled ? 'bg-white/95 backdrop-blur-2xl shadow-lg shadow-black/5 border-b border-gray-100/80' : 'bg-white/70 backdrop-blur-2xl border-b border-gray-100/50'}`}>
       <div className="container mx-auto px-4 md:px-6 h-16 md:h-20 flex items-center justify-between">
         <div className="flex items-center gap-4 group cursor-pointer">
-          <div className="w-12 h-12 bg-primary rounded-[1.25rem] flex items-center justify-center text-white font-black text-2xl shadow-[0_10px_30px_-5px_rgba(30,74,233,0.4)] group-hover:rotate-12 transition-all duration-500">
-            H
+          <div className="w-12 h-12 bg-white rounded-[1.25rem] flex items-center justify-center p-2 shadow-[0_10px_30px_-5px_rgba(30,74,233,0.2)] group-hover:scale-110 transition-all duration-500 border border-gray-100">
+            <img src="/favicon.svg" alt="HongHaiTech GrandHome Logo" className="w-full h-full object-contain" />
           </div>
           <span className="text-2xl font-black text-text-primary tracking-tighter uppercase">Grand<span className="text-primary italic font-serif lowercase border-b-2 border-primary/20">Home</span></span>
         </div>
